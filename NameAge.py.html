@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head></head><body>
+
+
+
+
+
+
+<table CELLSPACING="0" CELLPADDING="5" WIDTH="100%" BGCOLOR="#606060">
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+NameAge.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># user input name/age</span>
+<span class="s1">user_name </span><span class="s2">= </span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;What is your name? &quot;</span><span class="s2">)  </span><span class="s0"># get name as str</span>
+<span class="s1">user_age </span><span class="s2">= </span><span class="s1">int</span><span class="s2">(</span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;How old are you? &quot;</span><span class="s2">))  </span><span class="s0"># get age as int</span>
+<span class="s1">user_birth_year </span><span class="s2">= </span><span class="s4">2024 </span><span class="s2">- </span><span class="s1">user_age  </span><span class="s0"># calculate birth year</span>
+
+<span class="s1">print</span><span class="s2">(</span><span class="s3">f&quot;Hello </span><span class="s5">{</span><span class="s1">user_name</span><span class="s5">}</span><span class="s3">! You were born in </span><span class="s5">{</span><span class="s1">user_birth_year</span><span class="s5">}</span><span class="s3">.&quot;</span><span class="s2">)  </span><span class="s0"># print greeting</span>
+</pre>
+
+<script type="module" src="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+						document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+							elm.setAttribute('style', 'display: block; height: 0.5rem;');
+						});
+
+						window.D2L.MathJax.loadMathJax({
+							'outputScale': 1.5,
+							'renderLatex': false
+						});
+					}
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/20.23.12-266/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script></body></html>
